@@ -1,0 +1,51 @@
+name: Telegram CVE Notifier
+
+on:
+  schedule:
+    # Runs at the start of every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    # Allows manual triggering of the workflow from the GitHub Actions tab
+
+permissions:
+  contents: write  # Required to commit state.json back to the repository
+
+jobs:
+  notify-cves:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run CVE Notifier
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          MIN_SEVERITY: ${{ vars.MIN_SEVERITY || 'MEDIUM' }}
+          REPORT_UNSCORED: ${{ vars.REPORT_UNSCORED || 'true' }}
+        run: python cve_notifier.py
+
+      - name: Commit and Push State Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          # Commit only if state.json has changed
+          if git commit -m "Update NVD CVE last check timestamp [skip ci]"; then
+            git push
+          else
+            echo "No state changes to commit."
+          fi

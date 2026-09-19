@@ -1,0 +1,24 @@
+{
+  "include": [
+    "windows",
+    "linux",
+    "cisco",
+    "fortinet",
+    "sophos",
+    "kaspersky",
+    "ssh",
+    "rdp",
+    "sap",
+    "citrix",
+    "lumu",
+    "splunk",
+    "teams",
+    "firefox",
+    "edge"
+  ],
+  "exclude": [
+    "chrome",
+    "kernel",
+    "nvidia"
+  ]
+}

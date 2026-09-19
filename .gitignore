@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+test_state.json
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
