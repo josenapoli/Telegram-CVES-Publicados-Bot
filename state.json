@@ -1,46 +1,6 @@
 {
-  "last_run_timestamp": "2026-09-22T00:30:45.000",
+  "last_run_timestamp": "2026-09-22T05:45:51.000",
   "sent_cves": {
-    "CVE-2026-78054": {
-      "severity": "LOW",
-      "published": "2026-08-23T01:17:19.963"
-    },
-    "CVE-2026-78136": {
-      "severity": "HIGH",
-      "published": "2026-08-23T01:17:20.143"
-    },
-    "CVE-2026-78055": {
-      "severity": "LOW",
-      "published": "2026-08-23T02:17:00.243"
-    },
-    "CVE-2026-78056": {
-      "severity": "LOW",
-      "published": "2026-08-23T03:16:59.777"
-    },
-    "CVE-2026-78057": {
-      "severity": "LOW",
-      "published": "2026-08-23T03:16:59.977"
-    },
-    "CVE-2026-78059": {
-      "severity": "LOW",
-      "published": "2026-08-23T04:16:54.387"
-    },
-    "CVE-2026-78060": {
-      "severity": "LOW",
-      "published": "2026-08-23T04:17:08.610"
-    },
-    "CVE-2026-78061": {
-      "severity": "MEDIUM",
-      "published": "2026-08-23T04:17:09.573"
-    },
-    "CVE-2026-78062": {
-      "severity": "MEDIUM",
-      "published": "2026-08-23T05:16:52.137"
-    },
-    "CVE-2026-78063": {
-      "severity": "LOW",
-      "published": "2026-08-23T05:16:53.273"
-    },
     "CVE-2026-13598": {
       "severity": "CRITICAL",
       "published": "2026-08-23T06:16:19.850"
@@ -55120,6 +55080,42 @@
     "CVE-2026-94490": {
       "severity": "LOW",
       "published": "2026-09-22T00:16:32.360"
+    },
+    "CVE-2026-94491": {
+      "severity": "MEDIUM",
+      "published": "2026-09-22T01:16:56.077"
+    },
+    "CVE-2026-94492": {
+      "severity": "LOW",
+      "published": "2026-09-22T01:16:56.253"
+    },
+    "CVE-2026-94493": {
+      "severity": "CRITICAL",
+      "published": "2026-09-22T01:16:56.437"
+    },
+    "CVE-2026-93709": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-09-22T01:16:55.610"
+    },
+    "CVE-2026-93710": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-09-22T01:16:55.730"
+    },
+    "CVE-2026-93711": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-09-22T01:16:55.847"
+    },
+    "CVE-2026-93712": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-09-22T01:16:55.957"
+    },
+    "CVE-2026-13355": {
+      "severity": "CRITICAL",
+      "published": "2026-09-22T05:16:54.960"
+    },
+    "CVE-2026-19658": {
+      "severity": "CRITICAL",
+      "published": "2026-09-22T05:16:55.167"
     }
   }
 }
