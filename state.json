@@ -1,586 +1,6 @@
 {
-  "last_run_timestamp": "2026-10-02T13:28:53.000",
+  "last_run_timestamp": "2026-10-02T18:54:08.000",
   "sent_cves": {
-    "CVE-2023-3360": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:34.983"
-    },
-    "CVE-2024-3773": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:35.957"
-    },
-    "CVE-2024-7956": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:36.107"
-    },
-    "CVE-2025-15481": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:36.320"
-    },
-    "CVE-2025-15485": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:36.450"
-    },
-    "CVE-2025-15489": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:36.583"
-    },
-    "CVE-2025-15490": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:36.713"
-    },
-    "CVE-2025-15692": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:36.840"
-    },
-    "CVE-2025-8945": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:36.993"
-    },
-    "CVE-2025-9314": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T15:17:37.127"
-    },
-    "CVE-2026-10821": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:37.267"
-    },
-    "CVE-2026-14255": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:37.403"
-    },
-    "CVE-2026-14326": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:37.553"
-    },
-    "CVE-2026-17563": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:37.717"
-    },
-    "CVE-2026-19698": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:37.990"
-    },
-    "CVE-2026-2688": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:38.130"
-    },
-    "CVE-2026-2811": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:38.270"
-    },
-    "CVE-2026-4357": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T15:17:38.413"
-    },
-    "CVE-2026-77009": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T15:17:39.410"
-    },
-    "CVE-2026-77793": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:39.543"
-    },
-    "CVE-2026-77794": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:39.673"
-    },
-    "CVE-2026-78153": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:39.810"
-    },
-    "CVE-2026-78584": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:39.943"
-    },
-    "CVE-2026-78586": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:40.063"
-    },
-    "CVE-2026-78587": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:40.190"
-    },
-    "CVE-2026-78588": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:40.307"
-    },
-    "CVE-2026-78590": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:40.433"
-    },
-    "CVE-2026-78591": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:40.570"
-    },
-    "CVE-2026-78594": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:40.700"
-    },
-    "CVE-2026-78598": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:40.863"
-    },
-    "CVE-2026-78599": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:41.003"
-    },
-    "CVE-2026-78600": {
-      "severity": "LOW",
-      "published": "2026-09-02T15:17:41.137"
-    },
-    "CVE-2026-78601": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:41.277"
-    },
-    "CVE-2026-78602": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:41.420"
-    },
-    "CVE-2026-78604": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:41.670"
-    },
-    "CVE-2026-78609": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:41.827"
-    },
-    "CVE-2026-79989": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:42.297"
-    },
-    "CVE-2026-79990": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:42.473"
-    },
-    "CVE-2026-79991": {
-      "severity": "HIGH",
-      "published": "2026-09-02T15:17:42.673"
-    },
-    "CVE-2026-81571": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:42.917"
-    },
-    "CVE-2026-82293": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:43.157"
-    },
-    "CVE-2026-82884": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:44.553"
-    },
-    "CVE-2026-82955": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T15:17:44.860"
-    },
-    "CVE-2026-83533": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:45.013"
-    },
-    "CVE-2026-83547": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:45.143"
-    },
-    "CVE-2026-8151": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T15:17:46.090"
-    },
-    "CVE-2026-12704": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:14.383"
-    },
-    "CVE-2026-14199": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:14.517"
-    },
-    "CVE-2026-18058": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:14.753"
-    },
-    "CVE-2026-19475": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:15.120"
-    },
-    "CVE-2026-53600": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:17.983"
-    },
-    "CVE-2026-78222": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:23.557"
-    },
-    "CVE-2026-78408": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:23.687"
-    },
-    "CVE-2026-78409": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:23.833"
-    },
-    "CVE-2026-78410": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:23.983"
-    },
-    "CVE-2026-84653": {
-      "severity": "LOW",
-      "published": "2026-09-02T16:17:29.983"
-    },
-    "CVE-2026-84666": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:31.247"
-    },
-    "CVE-2026-45730": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:40.847"
-    },
-    "CVE-2026-52831": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:45.347"
-    },
-    "CVE-2026-52832": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:17:45.487"
-    },
-    "CVE-2026-52833": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:45.630"
-    },
-    "CVE-2026-53635": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:45.770"
-    },
-    "CVE-2026-53636": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:17:45.917"
-    },
-    "CVE-2026-55421": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:17:46.290"
-    },
-    "CVE-2026-79754": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:59.770"
-    },
-    "CVE-2026-79755": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:59.940"
-    },
-    "CVE-2026-79756": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:18:00.087"
-    },
-    "CVE-2026-82404": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:18:00.223"
-    },
-    "CVE-2026-84376": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:18:00.497"
-    },
-    "CVE-2026-84669": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.537"
-    },
-    "CVE-2026-84670": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.640"
-    },
-    "CVE-2026-84671": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.737"
-    },
-    "CVE-2026-84672": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.833"
-    },
-    "CVE-2026-84673": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.940"
-    },
-    "CVE-2026-84674": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:32.033"
-    },
-    "CVE-2026-84675": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:32.130"
-    },
-    "CVE-2026-84676": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:32.233"
-    },
-    "CVE-2026-84677": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:32.330"
-    },
-    "CVE-2026-84809": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:18:05.150"
-    },
-    "CVE-2026-84810": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:18:05.297"
-    },
-    "CVE-2026-84811": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:18:05.447"
-    },
-    "CVE-2026-84837": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:33.560"
-    },
-    "CVE-2026-84838": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:33.710"
-    },
-    "CVE-2026-18329": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:14.917"
-    },
-    "CVE-2026-20212": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T17:17:31.547"
-    },
-    "CVE-2026-20274": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T17:17:32.630"
-    },
-    "CVE-2026-20275": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:32.790"
-    },
-    "CVE-2026-20276": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:32.957"
-    },
-    "CVE-2026-20277": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:33.110"
-    },
-    "CVE-2026-20278": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:33.267"
-    },
-    "CVE-2026-20279": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T17:17:33.420"
-    },
-    "CVE-2026-20280": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:33.580"
-    },
-    "CVE-2026-20281": {
-      "severity": "HIGH",
-      "published": "2026-09-02T17:17:33.730"
-    },
-    "CVE-2026-20354": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:17:33.897"
-    },
-    "CVE-2026-20355": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T17:17:34.027"
-    },
-    "CVE-2026-49249": {
-      "severity": "HIGH",
-      "published": "2026-09-02T18:19:28.123"
-    },
-    "CVE-2026-49830": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:19:32.027"
-    },
-    "CVE-2026-49831": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:19:32.683"
-    },
-    "CVE-2026-49832": {
-      "severity": "HIGH",
-      "published": "2026-09-02T18:19:32.830"
-    },
-    "CVE-2026-49833": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:19:32.980"
-    },
-    "CVE-2026-53611": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T16:17:18.127"
-    },
-    "CVE-2026-53649": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T18:19:59.973"
-    },
-    "CVE-2026-53670": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T18:20:00.140"
-    },
-    "CVE-2026-53671": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T18:20:00.293"
-    },
-    "CVE-2026-53706": {
-      "severity": "HIGH",
-      "published": "2026-09-02T18:20:00.433"
-    },
-    "CVE-2026-55221": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:20:10.760"
-    },
-    "CVE-2026-63020": {
-      "severity": "LOW",
-      "published": "2026-09-02T16:17:18.400"
-    },
-    "CVE-2026-66362": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:18.663"
-    },
-    "CVE-2026-66786": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T18:21:10.517"
-    },
-    "CVE-2026-66842": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:18.910"
-    },
-    "CVE-2026-77121": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:23.077"
-    },
-    "CVE-2026-77122": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:23.770"
-    },
-    "CVE-2026-77123": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:24.477"
-    },
-    "CVE-2026-77124": {
-      "severity": "HIGH",
-      "published": "2026-09-02T18:21:24.753"
-    },
-    "CVE-2026-77125": {
-      "severity": "HIGH",
-      "published": "2026-09-02T18:21:25.023"
-    },
-    "CVE-2026-77180": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:23.407"
-    },
-    "CVE-2026-78689": {
-      "severity": "CRITICAL",
-      "published": "2026-09-02T16:17:25.667"
-    },
-    "CVE-2026-82522": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:27.587"
-    },
-    "CVE-2026-84377": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:28.997"
-    },
-    "CVE-2026-84378": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:29.153"
-    },
-    "CVE-2026-84379": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:29.300"
-    },
-    "CVE-2026-84380": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T18:21:29.513"
-    },
-    "CVE-2026-84645": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.193"
-    },
-    "CVE-2026-84646": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:29.313"
-    },
-    "CVE-2026-84647": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.437"
-    },
-    "CVE-2026-84648": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.527"
-    },
-    "CVE-2026-84649": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.620"
-    },
-    "CVE-2026-84650": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.713"
-    },
-    "CVE-2026-84651": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:29.803"
-    },
-    "CVE-2026-84652": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:29.893"
-    },
-    "CVE-2026-84654": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.080"
-    },
-    "CVE-2026-84655": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.177"
-    },
-    "CVE-2026-84656": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.273"
-    },
-    "CVE-2026-84657": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.373"
-    },
-    "CVE-2026-84658": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.470"
-    },
-    "CVE-2026-84659": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.563"
-    },
-    "CVE-2026-84660": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.657"
-    },
-    "CVE-2026-84661": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.757"
-    },
-    "CVE-2026-84662": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.857"
-    },
-    "CVE-2026-84663": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:30.950"
-    },
-    "CVE-2026-84664": {
-      "severity": "MEDIUM",
-      "published": "2026-09-02T16:17:31.047"
-    },
-    "CVE-2026-84665": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.147"
-    },
-    "CVE-2026-84667": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.340"
-    },
-    "CVE-2026-84668": {
-      "severity": "HIGH",
-      "published": "2026-09-02T16:17:31.440"
-    },
-    "CVE-2026-84833": {
-      "severity": "LOW",
-      "published": "2026-09-02T18:21:33.370"
-    },
     "CVE-2026-19117": {
       "severity": "CRITICAL",
       "published": "2026-09-02T19:17:16.490"
@@ -47694,7 +47114,7 @@
       "published": "2026-09-25T11:17:35.110"
     },
     "CVE-2026-98062": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T11:17:35.220"
     },
     "CVE-2026-98063": {
@@ -47878,7 +47298,7 @@
       "published": "2026-09-25T11:17:41.863"
     },
     "CVE-2026-98109": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T11:17:41.977"
     },
     "CVE-2026-98110": {
@@ -48050,7 +47470,7 @@
       "published": "2026-09-25T11:17:46.693"
     },
     "CVE-2026-98152": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T11:17:46.820"
     },
     "CVE-2026-98153": {
@@ -48258,19 +47678,19 @@
       "published": "2026-09-25T14:17:13.810"
     },
     "CVE-2026-100074": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T14:17:13.973"
     },
     "CVE-2026-100076": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T14:17:14.440"
     },
     "CVE-2026-100077": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T14:17:14.593"
     },
     "CVE-2026-100078": {
-      "severity": "AWAITING_ANALYSIS",
+      "severity": "MEDIUM",
       "published": "2026-09-25T14:17:14.740"
     },
     "CVE-2026-100079": {
@@ -55194,7 +54614,7 @@
       "published": "2026-09-30T16:16:57.557"
     },
     "CVE-2026-100266": {
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "published": "2026-09-30T16:16:57.707"
     },
     "CVE-2026-100267": {
@@ -55222,7 +54642,7 @@
       "published": "2026-09-30T16:16:58.577"
     },
     "CVE-2026-100273": {
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-09-30T16:16:58.720"
     },
     "CVE-2026-100274": {
@@ -55234,11 +54654,11 @@
       "published": "2026-09-30T16:16:59.050"
     },
     "CVE-2026-100276": {
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "published": "2026-09-30T16:16:59.223"
     },
     "CVE-2026-100277": {
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-09-30T16:16:59.380"
     },
     "CVE-2026-100278": {
@@ -55250,7 +54670,7 @@
       "published": "2026-09-30T16:16:59.687"
     },
     "CVE-2026-100280": {
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "published": "2026-09-30T16:16:59.833"
     },
     "CVE-2026-102427": {
@@ -59012,6 +58432,314 @@
     "CVE-2026-104612": {
       "severity": "LOW",
       "published": "2026-10-02T13:17:44.820"
+    },
+    "CVE-2026-85215": {
+      "severity": "HIGH",
+      "published": "2026-10-02T14:17:11.327"
+    },
+    "CVE-2026-104845": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:47.070"
+    },
+    "CVE-2026-104846": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T16:16:47.230"
+    },
+    "CVE-2026-104910": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:48.813"
+    },
+    "CVE-2026-104912": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:49.047"
+    },
+    "CVE-2026-104914": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:49.280"
+    },
+    "CVE-2026-104900": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:47.573"
+    },
+    "CVE-2026-104901": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:47.797"
+    },
+    "CVE-2026-104906": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:48.010"
+    },
+    "CVE-2026-104907": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:48.253"
+    },
+    "CVE-2026-104908": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:48.580"
+    },
+    "CVE-2026-103621": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.180"
+    },
+    "CVE-2026-103622": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.290"
+    },
+    "CVE-2026-103623": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.400"
+    },
+    "CVE-2026-103624": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.503"
+    },
+    "CVE-2026-103625": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.610"
+    },
+    "CVE-2026-103626": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.717"
+    },
+    "CVE-2026-103627": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.827"
+    },
+    "CVE-2026-103628": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:43.937"
+    },
+    "CVE-2026-103629": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:44.043"
+    },
+    "CVE-2026-103630": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:44.150"
+    },
+    "CVE-2026-103631": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:44.260"
+    },
+    "CVE-2026-104613": {
+      "severity": "LOW",
+      "published": "2026-10-02T14:17:09.807"
+    },
+    "CVE-2026-104614": {
+      "severity": "LOW",
+      "published": "2026-10-02T14:17:09.990"
+    },
+    "CVE-2026-19652": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T14:17:10.483"
+    },
+    "CVE-2026-93875": {
+      "severity": "HIGH",
+      "published": "2026-10-02T14:17:11.850"
+    },
+    "CVE-2026-104625": {
+      "severity": "LOW",
+      "published": "2026-10-02T15:17:08.660"
+    },
+    "CVE-2026-104637": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:08.830"
+    },
+    "CVE-2026-104638": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.030"
+    },
+    "CVE-2026-32584": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.217"
+    },
+    "CVE-2026-32585": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.370"
+    },
+    "CVE-2026-39439": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.500"
+    },
+    "CVE-2026-39444": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.633"
+    },
+    "CVE-2026-39600": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:09.763"
+    },
+    "CVE-2026-39601": {
+      "severity": "LOW",
+      "published": "2026-10-02T15:17:09.907"
+    },
+    "CVE-2026-39717": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:10.040"
+    },
+    "CVE-2026-94483": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:51.473"
+    },
+    "CVE-2026-94484": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:51.627"
+    },
+    "CVE-2026-94485": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:51.777"
+    },
+    "CVE-2026-94486": {
+      "severity": "LOW",
+      "published": "2026-10-02T16:16:51.933"
+    },
+    "CVE-2026-94543": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:52.077"
+    },
+    "CVE-2026-94544": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:52.217"
+    },
+    "CVE-2026-104721": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T14:17:10.167"
+    },
+    "CVE-2026-51899": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:49.867"
+    },
+    "CVE-2026-51901": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:49.980"
+    },
+    "CVE-2026-51904": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.097"
+    },
+    "CVE-2026-51914": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.543"
+    },
+    "CVE-2026-51915": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.653"
+    },
+    "CVE-2026-51916": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.763"
+    },
+    "CVE-2026-102626": {
+      "severity": "HIGH",
+      "published": "2026-10-02T18:16:59.433"
+    },
+    "CVE-2026-104853": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T17:17:03.920"
+    },
+    "CVE-2026-104854": {
+      "severity": "HIGH",
+      "published": "2026-10-02T17:17:04.070"
+    },
+    "CVE-2026-104855": {
+      "severity": "LOW",
+      "published": "2026-10-02T18:17:02.083"
+    },
+    "CVE-2026-104861": {
+      "severity": "HIGH",
+      "published": "2026-10-02T18:17:02.430"
+    },
+    "CVE-2026-5782": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T15:17:10.180"
+    },
+    "CVE-2026-51906": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.207"
+    },
+    "CVE-2026-51907": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.320"
+    },
+    "CVE-2026-104848": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T17:17:03.473"
+    },
+    "CVE-2026-104849": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T17:17:03.623"
+    },
+    "CVE-2026-102795": {
+      "severity": "HIGH",
+      "published": "2026-10-02T18:16:59.780"
+    },
+    "CVE-2026-59265": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T18:17:03.917"
+    },
+    "CVE-2026-94422": {
+      "severity": "HIGH",
+      "published": "2026-10-02T14:17:12.003"
+    },
+    "CVE-2026-104026": {
+      "severity": "HIGH",
+      "published": "2026-10-02T15:17:05.453"
+    },
+    "CVE-2026-90970": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T15:17:12.550"
+    },
+    "CVE-2026-103648": {
+      "severity": "CRITICAL",
+      "published": "2026-10-02T16:16:44.370"
+    },
+    "CVE-2026-104844": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:46.917"
+    },
+    "CVE-2026-104847": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:47.410"
+    },
+    "CVE-2026-104859": {
+      "severity": "HIGH",
+      "published": "2026-10-02T18:17:02.270"
+    },
+    "CVE-2026-101104": {
+      "severity": "MEDIUM",
+      "published": "2026-10-02T16:16:42.883"
+    },
+    "CVE-2026-51911": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.430"
+    },
+    "CVE-2026-51917": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.877"
+    },
+    "CVE-2026-51918": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:50.993"
+    },
+    "CVE-2026-51922": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:51.123"
+    },
+    "CVE-2026-96613": {
+      "severity": "HIGH",
+      "published": "2026-10-02T16:16:52.490"
+    },
+    "CVE-2026-104851": {
+      "severity": "HIGH",
+      "published": "2026-10-02T17:17:03.763"
+    },
+    "CVE-2026-67989": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:51.247"
+    },
+    "CVE-2026-51898": {
+      "severity": "AWAITING_ANALYSIS",
+      "published": "2026-10-02T16:16:49.740"
     }
   }
 }
