@@ -1,5 +1,5 @@
 {
-  "last_run_timestamp": "2026-10-03T07:28:19.000",
+  "last_run_timestamp": "2026-10-03T12:57:43.000",
   "sent_cves": {
     "CVE-2026-17539": {
       "severity": "MEDIUM",
@@ -59136,6 +59136,74 @@
     "CVE-2026-97660": {
       "severity": "HIGH",
       "published": "2026-10-03T07:16:49.530"
+    },
+    "CVE-2026-104982": {
+      "severity": "LOW",
+      "published": "2026-10-03T08:16:26.293"
+    },
+    "CVE-2026-92084": {
+      "severity": "CRITICAL",
+      "published": "2026-10-03T08:16:26.990"
+    },
+    "CVE-2026-92767": {
+      "severity": "MEDIUM",
+      "published": "2026-10-03T08:16:27.163"
+    },
+    "CVE-2026-18040": {
+      "severity": "MEDIUM",
+      "published": "2026-10-03T09:17:04.360"
+    },
+    "CVE-2026-71883": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:04.570"
+    },
+    "CVE-2026-71885": {
+      "severity": "CRITICAL",
+      "published": "2026-10-03T09:17:04.730"
+    },
+    "CVE-2026-71886": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:04.897"
+    },
+    "CVE-2026-71887": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:05.067"
+    },
+    "CVE-2026-71888": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:05.250"
+    },
+    "CVE-2026-71889": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:05.437"
+    },
+    "CVE-2026-71890": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:05.607"
+    },
+    "CVE-2026-71891": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:05.763"
+    },
+    "CVE-2026-71892": {
+      "severity": "MEDIUM",
+      "published": "2026-10-03T09:17:05.913"
+    },
+    "CVE-2026-85515": {
+      "severity": "HIGH",
+      "published": "2026-10-03T09:17:06.073"
+    },
+    "CVE-2026-97873": {
+      "severity": "MEDIUM",
+      "published": "2026-10-03T09:17:06.280"
+    },
+    "CVE-2026-104983": {
+      "severity": "LOW",
+      "published": "2026-10-03T11:17:33.473"
+    },
+    "CVE-2026-105105": {
+      "severity": "CRITICAL",
+      "published": "2026-10-03T12:16:57.183"
     }
   }
 }
