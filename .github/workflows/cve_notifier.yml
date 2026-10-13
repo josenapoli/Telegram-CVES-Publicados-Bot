@@ -29,7 +29,20 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Diagnostico CVE sin cache
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          MIN_SEVERITY: ${{ vars.MIN_SEVERITY || 'MEDIUM' }}
+          REPORT_UNSCORED: ${{ vars.REPORT_UNSCORED || 'true' }}
+        run: |
+          python cve_notifier.py \
+            --hours 48 \
+            --state-file /tmp/cve-diagnostico.json \
+            --dry-run
+
       - name: Run CVE Notifier
+        if: github.event_name == 'schedule'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -39,6 +52,7 @@ jobs:
         run: python cve_notifier.py
 
       - name: Commit and Push State Changes
+        if: github.event_name == 'schedule'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
