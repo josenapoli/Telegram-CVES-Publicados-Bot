@@ -40,6 +40,41 @@ jobs:
             --hours 48 \
             --state-file /tmp/cve-diagnostico.json \
             --dry-run
+      - name: Test Telegram
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+          import sys
+
+          token = os.getenv("TELEGRAM_BOT_TOKEN")
+          chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+          if not token or not chat_id:
+              print("ERROR: Faltan credenciales de Telegram")
+              sys.exit(1)
+
+          response = requests.post(
+              f"https://api.telegram.org/bot{token}/sendMessage",
+              json={
+                  "chat_id": chat_id,
+                  "text": "Prueba de notificacion CVE desde GitHub Actions"
+              },
+              timeout=20
+          )
+
+          data = response.json()
+          print("HTTP Status:", response.status_code)
+          print("Telegram OK:", data.get("ok"))
+          print("Description:", data.get("description", ""))
+
+          if not data.get("ok"):
+              sys.exit(1)
+          PY
 
       - name: Run CVE Notifier
         if: github.event_name == 'schedule'
